@@ -14,37 +14,25 @@ Use the syntax cv2.filter2D() to perform filtering.
 
 ### Step3
 For average filter use the syntax = kernel=np.ones((9,9),np.float32)/81 . 
-
-</br>
-</br> 
-
+ 
 ### Step4
 For the weighted average filter use the syntax = kernel=np.array([[1,2,1],[2,4,2],[1,2,1]])/16 .
-</br>
-</br> 
 
 ### Step5
 For the gaussian filter use the syntax = gaussian_blur=cv2.GaussianBlur(src=image2,ksize=(11,11),sigmaX=0,sigmaY=0). 
 
-</br>
-</br> 
 
 ### Step6
 For the Median filter use the syntax = median=cv2.medianBlur(src=image2,ksize=11).
-</br>
-</br> 
 
 ### Step7
 For the Laplacian kernel filter use the syntax = kernel=np.array([[0,1,0],[1,-4,1],[0,1,0]]).
-
 
 ### Step8
 For the Laplacian operator use the syntax = lap_operator=cv2.Laplacian(image2,cv2.CV_64F).
 
 ### Step9
 Run the programs and execute the output.
-
-
 
 
 ## Program:
