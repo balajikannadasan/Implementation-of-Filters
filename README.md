@@ -10,26 +10,25 @@ Anaconda - Python 3.7
 Import necessary packages numpy,cv2 and matplotlib and save the image which you would like to perform Image filtering.
 
 ### Step2
-Use the syntax cv2.filter2D() to perform filtering.
+Perform filtering of image.
 
 ### Step3
-For average filter use the syntax = kernel=np.ones((9,9),np.float32)/81 . 
+Perform average filter. 
  
 ### Step4
-For the weighted average filter use the syntax = kernel=np.array([[1,2,1],[2,4,2],[1,2,1]])/16 .
+Perform weighted average filter.
 
 ### Step5
-For the gaussian filter use the syntax = gaussian_blur=cv2.GaussianBlur(src=image2,ksize=(11,11),sigmaX=0,sigmaY=0). 
-
+Perform gaussian filter.  
 
 ### Step6
-For the Median filter use the syntax = median=cv2.medianBlur(src=image2,ksize=11).
+Perform median filter.
 
 ### Step7
-For the Laplacian kernel filter use the syntax = kernel=np.array([[0,1,0],[1,-4,1],[0,1,0]]).
+Perform Laplacian kernel filter.
 
 ### Step8
-For the Laplacian operator use the syntax = lap_operator=cv2.Laplacian(image2,cv2.CV_64F).
+Perform Laplacian operator.
 
 ### Step9
 Run the programs and execute the output.
